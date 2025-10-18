@@ -1,18 +1,12 @@
 {
-  "name": "com.zjm.json-tool",
+  "name": "com.peterparkers.json-tool",
   "displayName": "ZJM JSON Config Tool",
   "version": "1.0.0",
   "description": "Complete JSON configuration solution for Unity",
-  "unity": "2021+",
+  "unity": "2022.3",
   "author": {
     "name": "张锦铭",
-    "email": "3427463164@qq.com"
-  },
-  "samples": [
-    {
-      "displayName": "Usage Example",
-      "description": "Show how to use the tool",
-      "path": "Samples~/Example"
-    }
-  ]
+    "email": "3427463164@qq.com",
+    "url": "https://github.com/PeterParkers007"
+  }
 }
