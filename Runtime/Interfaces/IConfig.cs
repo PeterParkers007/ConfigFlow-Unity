@@ -1,4 +1,4 @@
-namespace ZJM_JsonTool.Runtime.Interfaces
+namespace ZJM_JsonTool.Runtime
 {
     public interface IConfig<T>
     {

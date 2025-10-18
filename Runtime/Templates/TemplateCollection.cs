@@ -1,5 +1,4 @@
-using ZJM_JsonTool.Runtime.Interfaces;
-namespace ZJM_JsonTool.Runtime.Templates
+namespace ZJM_JsonTool.Runtime
 {
     public class TemplateCollection<T> : IJsonDataCollection<T>
     {

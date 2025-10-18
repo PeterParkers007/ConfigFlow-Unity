@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 using System.Collections.Generic;
-using ZJM_JsonTool.Runtime.Interfaces;
+using ZJM_JsonTool.Runtime;
 namespace ZJM_JsonTool.Editor
 {
     public static class GenericJsonExporter
@@ -96,20 +96,20 @@ namespace ZJM_JsonTool.Editor
         [MenuItem("Proteus/导出/英雄配置")]
         public static void ExportHeroConfigs()
         {
-            ExportConfigsToJson<HeroConfig, HeroTemplate, HeroTemplateCollection>(
-                "HeroTemplates.json",
-                "t:HeroConfig"
-            );
+            //ExportConfigsToJson<HeroConfig, HeroTemplate, HeroTemplateCollection>(
+            //    "HeroTemplates.json",
+            //    "t:HeroConfig"
+            //);
         }
 
         [MenuItem("Proteus/导出/技能配置")]
         public static void ExportAbilityConfigs()
         {
             //未来添加技能系统时使用
-            ExportConfigsToJson<AbilityConfig, AbilityTemplate, AbilityTemplateCollection>(
-                "AbilityTemplates.json",
-                "t:AbilityConfig"
-            );
+            //ExportConfigsToJson<AbilityConfig, AbilityTemplate, AbilityTemplateCollection>(
+            //    "AbilityTemplates.json",
+            //    "t:AbilityConfig"
+            //);
         }
 
         [MenuItem("Proteus/导出/所有配置")]

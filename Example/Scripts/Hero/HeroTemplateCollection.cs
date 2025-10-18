@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ZJM_JsonTool.Runtime.Templates;
+using ZJM_JsonTool.Runtime;
 [Serializable]
 public class HeroTemplateCollection : TemplateCollection<HeroTemplate>
 {

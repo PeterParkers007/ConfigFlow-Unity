@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
-using ZJM_JsonTool.Runtime.Interfaces;
 namespace ZJM_JsonTool.Runtime
 {
     public static class ConfigManager<U, T> where T : class, IJsonDataCollection<U>, new()
