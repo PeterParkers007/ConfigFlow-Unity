@@ -1,0 +1,18 @@
+{
+  "name": "com.zjm.json-tool",
+  "displayName": "ZJM JSON Config Tool",
+  "version": "1.0.0",
+  "description": "Complete JSON configuration solution for Unity",
+  "unity": "2021+",
+  "author": {
+    "name": "张锦铭",
+    "email": "3427463164@qq.com"
+  },
+  "samples": [
+    {
+      "displayName": "Usage Example",
+      "description": "Show how to use the tool",
+      "path": "Samples~/Example"
+    }
+  ]
+}
