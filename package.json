@@ -1,12 +1,12 @@
 {
-  "name": "com.peterparkers.json-tool",
-  "displayName": "ZJM JSON Config Tool",
+  "name": "com.tech-cosmos.serializationkit",
+  "displayName": "SerializationKit",
   "version": "1.0.0",
   "description": "Complete JSON configuration solution for Unity",
   "unity": "2022.3",
   "author": {
-    "name": "张锦铭",
+    "name": "Tech-Cosmos",
     "email": "3427463164@qq.com",
-    "url": "https://github.com/PeterParkers007"
+    "url": "https://github.com/PeterParkers007/Tech-Cosmos.Infra.LoggingSystem.git"
   }
 }
