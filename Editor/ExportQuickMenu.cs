@@ -2,9 +2,9 @@
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
-using ZJM_JsonTool.Runtime;
+using TechCosmos.Serialization.Runtime;
 
-namespace ZJM_JsonTool.Editor
+namespace TechCosmos.Serialization.Editor
 {
     public static class ExportQuickMenu
     {

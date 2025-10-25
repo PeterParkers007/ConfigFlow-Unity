@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
-namespace ZJM_JsonTool.Runtime
+namespace TechCosmos.Serialization.Runtime
 {
     public static class ConfigManager<U, T> where T : class, IJsonDataCollection<U>, new()
     {

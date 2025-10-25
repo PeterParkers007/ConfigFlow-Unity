@@ -5,9 +5,9 @@ using System.IO;
 using System.Collections.Generic;
 using System;
 using System.Reflection;
-using ZJM_JsonTool.Runtime;
+using TechCosmos.Serialization.Runtime;
 
-namespace ZJM_JsonTool.Editor
+namespace TechCosmos.Serialization.Editor
 {
     public static class GenericJsonExporter
     {

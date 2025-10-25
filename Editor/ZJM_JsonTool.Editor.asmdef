@@ -1,7 +1,7 @@
 {
-  "name": "ZJM_JsonTool.Editor",
+  "name": "TechCosmos.Serialization.Editor",
   "references": [
-    "ZJM_JsonTool.Runtime"
+    "TechCosmos.Serialization.Runtime"
   ],
   "includePlatforms": [
     "Editor"

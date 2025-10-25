@@ -1,14 +1,14 @@
 // Runtime/ExportConfig.cs
 using UnityEngine;
 
-namespace ZJM_JsonTool.Runtime
+namespace TechCosmos.Serialization.Runtime
 {
-    [CreateAssetMenu(fileName = "New Export Config", menuName = "ZJM/Export Config")]
+    [CreateAssetMenu(fileName = "New Export Config", menuName = "Tech-Cosmos/Config/Export Config")]
     public class ExportConfig : ScriptableObject
     {
         [Header("导出设置")]
-        public string menuPath = "ZJM_JsonTool/导出/新配置";
-        public string jsonFileName = "NewTemplates.json";
+        public string menuPath = "Serialization/导出/新配置";
+        public string jsonFileName = "New ExportTemplates.json";
 
         [Header("数据类型配置")]
         public string configTypeName;    // 如 "HeroConfig"

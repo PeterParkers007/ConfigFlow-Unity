@@ -1,4 +1,4 @@
-namespace ZJM_JsonTool.Runtime
+namespace TechCosmos.Serialization.Runtime
 {
     public class TemplateCollection<T> : IJsonDataCollection<T>
     {
