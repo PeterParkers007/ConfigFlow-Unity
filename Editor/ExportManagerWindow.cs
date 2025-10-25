@@ -11,7 +11,7 @@ namespace ZJM_JsonTool.Editor
         private List<ExportConfig> _configs;
         private Vector2 _scrollPosition;
 
-        [MenuItem("ZJM/导出管理器")]
+        [MenuItem("Tech-Cosmos/Serialization/导出管理器")]
         public static void ShowWindow()
         {
             GetWindow<ExportManagerWindow>("导出管理器");

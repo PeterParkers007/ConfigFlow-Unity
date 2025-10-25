@@ -21,7 +21,7 @@ namespace ZJM_JsonTool.Editor
         }
 
         // 核心方法：快速导出菜单
-        [MenuItem("ZJM/快速导出 _%#e")] // Ctrl+Shift+E 快捷键
+        [MenuItem("Tech-Cosmos/Serialization/快速导出 _%#e")] // Ctrl+Shift+E 快捷键
         public static void ShowQuickExportMenu()
         {
             RefreshConfigCache(); // 确保使用最新配置
